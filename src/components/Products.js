@@ -7,7 +7,7 @@ const products = [
         id: 1,
         title: 'Kupiameni Herbal Bar',
         tagline: 'ANCIENT HEALING',
-        image: 'https://images.unsplash.com/photo-1600857972498-8ad529f1b199?q=80&w=2083&auto=format&fit=crop',
+        image: process.env.PUBLIC_URL + '/images/kupiameni.png',
         ingredients: ['Kupiameni Leaf Extract', 'Coconut & Castor Oil'],
         description: 'An Ayurvedic medicinal formulation with Kupiameni Leaf Extract that purifies the skin, reduces inflammation, and supports healthy skin recovery.'
     },
@@ -15,7 +15,7 @@ const products = [
         id: 2,
         title: 'Nalugu Mavu Bath Bar',
         tagline: 'TRADITIONAL GLOW',
-        image: 'https://images.unsplash.com/photo-1607006344380-b6775a0824a7?q=80&w=2000&auto=format&fit=crop',
+        image: process.env.PUBLIC_URL + '/images/nalugu.png',
         ingredients: ['Green Gram Flour', 'Turmeric & Sandalwood'],
         description: 'An age-old Ayurvedic formulation with Green Gram Flour, Turmeric, and Sandalwood that purifies skin, improves complexion, and restores natural radiance.'
     },
@@ -23,7 +23,7 @@ const products = [
         id: 3,
         title: 'Activated Charcoal Bar',
         tagline: 'DEEP DETOX',
-        image: 'https://images.unsplash.com/photo-1602928321679-560bb453f190?q=80&w=2000&auto=format&fit=crop',
+        image: process.env.PUBLIC_URL + '/images/charcoal.png',
         ingredients: ['Bamboo Charcoal', 'Tea Tree Oil'],
         description: 'Powerfully draws out toxins, unclogs deep pores, and controls excess oil. Helps reduce acne, blackheads, and breakouts while leaving skin fresh and balanced.'
     },
@@ -31,7 +31,7 @@ const products = [
         id: 4,
         title: 'Orange Peel Bar',
         tagline: 'FRESH RADIANCE',
-        image: 'https://images.unsplash.com/photo-1629196914168-3a1ecb15886d?q=80&w=2000&auto=format&fit=crop',
+        image: process.env.PUBLIC_URL + '/images/orange.png',
         ingredients: ['Orange Peel Powder', 'Natural Vitamin C'],
         description: 'Gently exfoliates dead skin cells, boosts natural radiance, and helps reduce tan and pigmentation. Leaves your skin visibly brighter, refreshed, and naturally glowing with every wash.'
     },
@@ -39,7 +39,7 @@ const products = [
         id: 5,
         title: 'Manjistha Beauty Bar',
         tagline: 'AYURVEDIC BEAUTY',
-        image: 'https://images.unsplash.com/photo-1607006411984-98ae8b078972?q=80&w=2000&auto=format&fit=crop',
+        image: process.env.PUBLIC_URL + '/images/manjistha.png',
         ingredients: ['Manjistha Root', 'Neem & Aloe Vera'],
         description: 'A powerful herbal blend that purifies the skin, fights impurities, and soothes irritation. Helps improve complexion, enhance skin clarity, and reveal naturally healthy, glowing skin.'
     },
@@ -47,7 +47,7 @@ const products = [
         id: 6,
         title: 'Neem & Aloe Vera Bar',
         tagline: 'PURE CARE',
-        image: 'https://images.unsplash.com/photo-1590439471364-192aa70c0b53?q=80&w=2056&auto=format&fit=crop',
+        image: process.env.PUBLIC_URL + '/images/neem.png',
         ingredients: ['Neem Leaf Extract', 'Fresh Aloe Vera Gel', 'Coconut Oil Base'],
         description: 'Gently cleanses and purifies the skin while reducing acne and breakouts. Soothes irritation, calms redness, and helps restore skin balance. Perfect for sensitive, acne-prone, and problem-prone skin.'
     }
