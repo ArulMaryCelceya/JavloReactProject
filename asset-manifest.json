@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/JavloReactProject/static/css/main.78a2afb6.css",
+    "main.js": "/JavloReactProject/static/js/main.184eb234.js",
+    "static/js/453.9cb973cd.chunk.js": "/JavloReactProject/static/js/453.9cb973cd.chunk.js",
+    "index.html": "/JavloReactProject/index.html",
+    "main.78a2afb6.css.map": "/JavloReactProject/static/css/main.78a2afb6.css.map",
+    "main.184eb234.js.map": "/JavloReactProject/static/js/main.184eb234.js.map",
+    "453.9cb973cd.chunk.js.map": "/JavloReactProject/static/js/453.9cb973cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78a2afb6.css",
+    "static/js/main.184eb234.js"
+  ]
+}
