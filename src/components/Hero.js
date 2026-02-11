@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
     return (
         <section id="home" style={{
-            background: "linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url('/images/hero-bg.png') center/cover no-repeat"
+            background: "linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat"
         }}>
             <div className="hero-brand">JAVLO HERBAL</div>
             <p>HANDMADE • 100% ORGANIC • AYURVEDIC BOTANICAL CARE</p>
